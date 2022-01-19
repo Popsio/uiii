@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+   <script src="https://kit.fontawesome.com/9d89bb858d.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <div class="main">      
+       <div class="container">
+         <iframe src="https://pallaviqueen.github.io/android11/"></iframe>                      
+       </div> 
+    </div>
+    <div class="header">        
+    <div class="lens"></div>
+    <div class="round"><div class="round1"><div class="round2"><div class="round3"><div class="round4"></div></div></div></div></div>        
+    <div class="line"><div class="line1"><div class="line2"></div></div></div>
+    </div>
+    <div id="top">     
+    </div>
+    </body>
+</html>
