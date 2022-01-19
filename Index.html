@@ -19,5 +19,196 @@
     </div>
     <div id="top">     
     </div>
+<Style>.main{
+    height: 635px;
+    width: 320px;
+    border: solid 1px;
+    border-radius:30px;
+    border-color:rgb(0,0,0,0.2);
+    border-top:solid 30px royalblue;
+    margin: auto;
+    background-color:royalblue;
+    box-shadow: 5px 10px royalblue;
+}
+
+.container{
+    height: 610px;
+    width: 300px;
+    border-style: solid;
+    border-radius:10px;
+    border-color:royalblue;
+    margin: auto;    
+    background-position:center;
+    background-color:#fff;
+}
+
+.header{
+    margin-top:-614px;
+    margin-left:150px;
+}
+
+.round{
+    height:20px;
+    width:20px;
+    border-style:double;
+    border-radius:50%;
+    border-color:#000;
+    background-color:#36454F;
+    margin-top:-60px;
+}
+.round1{
+    height:17px;
+    width:17px;
+    border-style:double;
+    border-radius:50%;
+    border-color:#000;
+}
+.round2{
+    height:14px;
+    width:14px;
+    border-style:double;
+    border-radius:50%;
+    border-color:#000;
+}
+.round3{
+    height:11px;
+    width:1qpx;
+    border-style:double;
+    border-radius:50%;
+    border-color:#000;
+}
+.round4{
+    height:8px;
+    width:8px;
+    border-style:double;
+    border-radius:50%;
+    border-color:#000;
+}
+
+.lens{
+    height:10px;
+    width:10px;
+    border:double 1px;
+    border-radius:100%;
+    border-color:#000;
+    background-color:rgb(0,0,0,0.7);
+    margin-left:-20px;
+}
+
+.line{
+    height:6px;
+    width:40px;
+    border-radius:1px;
+    background-color:#023020;
+    margin-top:-14px;
+    margin-left:30px;
+}
+
+.line1{
+    height:3px;
+    width:36px;
+    border-style:double;
+    border-radius:20%;
+    background-color:rgb(54, 69, 79,0.1);
+    margin-left:0.5px;
+}
+
+.line2{
+    width:33px;
+    border-style:double;
+    border-radius:5%;
+    border-color:#000;
+    margin-left:0.5px;
+}
+
+.homepage{
+    
+}
+
+iframe{
+    border: none;
+    outline: none;
+    height: 610px;
+    width: 300px;
+    border-radius:10px;    
+    background-repeat:no-repeat;
+    background-color:#fff;
+    background-position:center;
+}
+
+
+.footer{
+    margin-top:500px;
+    margin-left:21px;
+    height:50px;
+    width:300px;
+    text-align:center;
+}
+
+#top{
+    margin-top:-33px;
+    margin-left:20px;
+    color:#fff;
+    font-size:12px;
+    font-weight:bold;
+}
+
+i{
+    margin-top:-90px;
+}
+
+.button1{
+    heigt:20px;
+    width:60px;
+    margin:300px 150px;    
+}
+
+#bat{
+    height:11px;
+    width:20px;
+    border:solid 1px #fff;
+    border-radius:10%;
+    background-image:linear-gradient(to right,rgb(255,255,255,0.5),transparent);
+    align-items:center;
+    font-size:8px;
+    margin-top:-14px;
+    margin-left:270px;
+    position:absolute;
+}
+
+#txt{
+    font-size:6px;
+    font-style:Fantasy;
+}
+</style>
+<Script>navigator.getBattery().then(function(battery) { 
+var bat = battery.level; 
+bat = Math.round(Number(bat*100))+'%';
+function time() {
+var d = new Date();
+var hr = d.getHours();
+var min = d.getMinutes();
+if (min<10){
+min = "0"+min;
+}
+if (hr>12){
+hr = hr -12 ; 
+}
+var num = (Math.random()*100).toFixed(2);
+document.getElementById("top").innerHTML = "<pre> " + hr + ':' + min + '                  ' + "<font id='txt'>" + num + 'KB/s' + "</font>" + "<i class='fas fa-wifi'></i> 5G<i class='fas fa-signal'></i><div id='bat'>" + bat + "</div></pre>";
+}
+setInterval(time,1000);
+});
+
+function func(){
+    document.getElementsByTagName("IFRAME")[0].src = "https://pallaviqueen.github.io/fandroid/"
+}
+
+alert("Working Apps(Scroll right to see) :- \n1.Contacts\n2.Mesages\n3.Whatsapp\n4.Setting\n5.Calculator\n6.Chrome\n7.Chess\n8.Play Store\n9.Music(By V@msi)");
+
+alert("Features (Go on Settings) :- \n1.Walpaper(40)\n2.Dark Mode\n3.Light Mode\n4.Brightness")
+
+alert("There are alots of things in this program ao it may take time to load depending on your internet speed...\n\nFor Customization :- \n1.Go to settings > Wallpapers...\n2.Go to settings > Display...")
+</script>
     </body>
 </html>
